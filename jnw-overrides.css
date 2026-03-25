@@ -97,9 +97,16 @@ bbb {
 .highlight-cyan {
 	color: cyan;
 }
+.highlight-blue {
+	color: #99f;
+}
 .highlight-purple {
 	color: #c9f;
 }
+.highlight-yellow {
+	color: #ffc;
+}
+
 .highlight {
 	/* color: #bbd; */
 	/* color: #eea; */
