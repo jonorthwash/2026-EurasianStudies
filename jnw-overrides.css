@@ -46,6 +46,9 @@ span.shrink {
 div.shrink {
 	font-size: 75% !important;
 }
+div.supershrink {
+	font-size: 60% !important;
+}
 .regular {
 	font-weight: normal !important;
 }
@@ -754,6 +757,29 @@ div.autoseg span.autoseg {
 	bottom: -0.3em;
 	left: 1px;
 	text-align:left;
+}
+div.imgbox {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-left: 1px;
+	position:relative;
+	display: inline-block;
+	width: 95%;
+}
+div.imgbox img {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	width: 100%;
+}
+div.imgbox span.source {
+	display: inline-block;
+	/* position: absolute;
+	bottom: -1em; */
+	/* left: 1px; */
+	text-align:left;
+	font-style: italic ;
+	font-size: 80%;
 }
 
 #trackingtable{
